@@ -1,0 +1,25 @@
+h1{
+    font-size: 25px !important;
+}
+.btn-warning:hover{
+ background-color: blue;
+}
+canvas{
+
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+@keyframes filter{
+    from{
+box-shadow: 5px 5px 30px black;
+    }
+    to{
+box-shadow: 5px 5px 30px blue;
+    }
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
